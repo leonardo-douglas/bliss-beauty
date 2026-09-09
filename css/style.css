@@ -14,8 +14,8 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
-    background: #080808;
-    color: #f5f1e8;
+    background: #ffffff;
+    color: #332b30;
     overflow-x: hidden;
 }
 
@@ -34,19 +34,19 @@ button {
 }
 
 :root {
-    --black: #080808;
-    --black-soft: #0f0f0f;
-    --black-card: #141414;
+    --black: #ffffff;
+    --black-soft: #fff7fa;
+    --black-card: #ffffff;
 
-    --gold: #d6b36a;
-    --gold-light: #ecd394;
-    --gold-dark: #9e7b3a;
+    --gold: #d94f82;
+    --gold-light: #f29abb;
+    --gold-dark: #b83264;
 
     --white: #ffffff;
-    --cream: #f6f0e5;
+    --cream: #3d3439;
 
-    --gray: #aaa59c;
-    --border: rgba(214, 179, 106, 0.18);
+    --gray: #746b70;
+    --border: rgba(217, 79, 130, 0.18);
 
     --container: 1220px;
 }
@@ -129,12 +129,12 @@ p {
         var(--gold)
     );
 
-    color: #090909;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(214, 179, 106, 0.2);
+    box-shadow: 0 12px 35px rgba(217, 79, 130, 0.20);
 }
 
 .btn-secondary {
@@ -170,7 +170,7 @@ p {
 }
 
 .header.scrolled {
-    background: rgba(7, 7, 7, 0.94);
+    background: rgba(255,255,255,0.94);
     backdrop-filter: blur(20px);
     border-bottom-color: var(--border);
     padding: 12px 0;
@@ -220,7 +220,7 @@ p {
     font-size: 0.48rem;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #aaa;
+    color: #8a7f85;
 }
 
 .nav {
@@ -233,7 +233,7 @@ p {
 
     font-size: 0.72rem;
     font-weight: 700;
-    color: #ccc;
+    color: #5f555b;
 
     transition: 0.3s;
 }
@@ -308,7 +308,7 @@ p {
             rgba(214, 179, 106, 0.08),
             transparent 30%
         ),
-        #070707;
+        #ffffff;
 }
 
 .hero::before {
@@ -381,7 +381,7 @@ p {
 
     font-size: 1.05rem;
 
-    color: #b7b4ad;
+    color: #62585e;
 }
 
 .hero-buttons {
@@ -412,7 +412,7 @@ p {
 
 .hero-info span {
     margin-top: 5px;
-    color: #777;
+    color: #8a7f85;
     font-size: 0.65rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -461,7 +461,7 @@ p {
             rgba(255,255,255,0.005)
         );
 
-    border: 1px solid rgba(214,179,106,0.3);
+    border: 1px solid rgba(217,79,130,0.30);
 
     backdrop-filter: blur(10px);
 }
@@ -473,7 +473,7 @@ p {
 
     inset: 13px;
 
-    border: 1px solid rgba(214,179,106,0.12);
+    border: 1px solid rgba(217,79,130,0.12);
 
     pointer-events: none;
 }
@@ -506,7 +506,7 @@ p {
 }
 
 .hero-logo-card p {
-    color: #aaa;
+    color: #8a7f85;
 
     font-size: 0.65rem;
     font-weight: 600;
@@ -525,7 +525,7 @@ p {
 
     border-radius: 50%;
 
-    border: 1px solid rgba(214, 179, 106, 0.16);
+    border: 1px solid rgba(217,79,130,0.16);
 }
 
 .gold-circle-1 {
@@ -537,7 +537,7 @@ p {
     width: 650px;
     height: 650px;
 
-    border-color: rgba(214,179,106,.07);
+    border-color: rgba(217,79,130,.07);
 }
 
 .scroll-down {
@@ -554,7 +554,7 @@ p {
     align-items: center;
     gap: 12px;
 
-    color: #777;
+    color: #8a7f85;
 
     font-size: 0.58rem;
     font-weight: 700;
@@ -605,11 +605,11 @@ p {
     font-weight: 800;
     letter-spacing: 4px;
 
-    color: #080808;
+    color: #332b30;
 }
 
 .marquee-track i {
-    color: #080808;
+    color: #332b30;
     font-size: 0.55rem;
 }
 
@@ -625,7 +625,7 @@ p {
 ============================================= */
 
 .about {
-    background: #0b0b0b;
+    background: #fff7fa;
 }
 
 .section-grid {
@@ -636,7 +636,7 @@ p {
 }
 
 .section-label {
-    color: #6d6d6d;
+    color: #8a7f85;
 
     font-size: 0.65rem;
     font-weight: 800;
@@ -712,7 +712,7 @@ p {
 
     margin-top: 7px;
 
-    color: #777;
+    color: #8a7f85;
 
     font-size: 0.72rem;
 }
@@ -730,10 +730,10 @@ p {
     background:
         radial-gradient(
             circle at center,
-            rgba(214,179,106,.08),
+            rgba(217,79,130,.08),
             transparent 42%
         ),
-        #080808;
+        #ffffff;
 }
 
 .quote-mark {
@@ -772,7 +772,7 @@ p {
     font-weight: 700;
     letter-spacing: 5px;
 
-    color: #666;
+    color: #8a7f85;
 }
 
 
@@ -806,7 +806,7 @@ p {
 ============================================= */
 
 .procedures {
-    background: #0d0d0d;
+    background: #ffffff;
 }
 
 .procedure-grid {
@@ -831,7 +831,7 @@ p {
 .procedure-card:hover {
     transform: translateY(-8px);
 
-    border-color: rgba(214,179,106,.5);
+    border-color: rgba(217,79,130,.5);
 }
 
 .procedure-image {
@@ -841,7 +841,7 @@ p {
 
     overflow: hidden;
 
-    background: #181818;
+    background: #f9edf2;
 }
 
 .procedure-image img {
@@ -867,7 +867,7 @@ p {
 
     background: linear-gradient(
         transparent 50%,
-        rgba(0,0,0,.75)
+        rgba(70,30,45,.12)
     );
 }
 
@@ -885,9 +885,9 @@ p {
     display: grid;
     place-items: center;
 
-    background: rgba(0,0,0,.65);
+    background: rgba(70,30,45,.65);
 
-    border: 1px solid rgba(214,179,106,.4);
+    border: 1px solid rgba(217,79,130,.4);
 
     color: var(--gold);
 
@@ -925,12 +925,12 @@ p {
    EXPERIENCE
 ============================================= */
 
-.experience {
+ .experience {
     padding: 120px 0;
 
     background: var(--gold);
 
-    color: #080808;
+    color: #332b30;
 }
 
 .experience .subtitle {
@@ -940,11 +940,11 @@ p {
 .experience-header h2 {
     margin-top: 16px;
 
-    color: #080808;
+    color: #332b30;
 }
 
 .experience-header h2 span {
-    color: rgba(0,0,0,.55);
+    color: rgba(70,30,45,.55);
 }
 
 .experience-grid {
@@ -959,8 +959,8 @@ p {
 
     padding: 35px;
 
-    border-top: 1px solid rgba(0,0,0,.25);
-    border-right: 1px solid rgba(0,0,0,.2);
+    border-top: 1px solid rgba(120,60,85,.25);
+    border-right: 1px solid rgba(120,60,85,.20);
 }
 
 .experience-item > span {
@@ -983,7 +983,7 @@ p {
 .experience-item p {
     margin-top: 12px;
 
-    color: rgba(0,0,0,.65);
+    color: rgba(70,30,45,.65);
 
     font-size: 0.8rem;
 }
@@ -994,7 +994,7 @@ p {
 ============================================= */
 
 .results {
-    background: #080808;
+    background: #ffffff;
 }
 
 .before-after {
@@ -1015,7 +1015,7 @@ p {
 
     border: 1px solid var(--border);
 
-    background: #111;
+    background: #ffffff;
 }
 
 .result-card img {
@@ -1038,7 +1038,7 @@ p {
 
     padding: 10px 17px;
 
-    background: #080808;
+    background: #ffffff;
 
     font-size: 0.68rem;
     font-weight: 800;
@@ -1047,7 +1047,7 @@ p {
 
 .result-label.gold {
     background: var(--gold);
-    color: #080808;
+    color: #332b30;
 }
 
 .result-divider {
@@ -1089,7 +1089,7 @@ p {
     text-align: right;
 
     font-size: 0.65rem;
-    color: #666;
+    color: #8a7f85;
 }
 
 
@@ -1098,7 +1098,7 @@ p {
 ============================================= */
 
 .testimonials {
-    background: #0d0d0d;
+    background: #ffffff;
 }
 
 .testimonials-header {
@@ -1134,7 +1134,7 @@ p {
 
     margin-top: 7px;
 
-    color: #777;
+    color: #8a7f85;
 
     font-size: 0.7rem;
 }
@@ -1156,24 +1156,24 @@ p {
 
     border: 1px solid var(--border);
 
-    background: #101010;
+    background: #fff7fa;
 }
 
 .testimonial-card.featured {
-    border-color: rgba(214,179,106,.5);
+    border-color: rgba(217,79,130,.5);
 
     background:
         linear-gradient(
             145deg,
-            rgba(214,179,106,.07),
-            #101010
+            rgba(217,79,130,.07),
+            #fff7fa
         );
 }
 
 .testimonial-card blockquote {
     margin-top: 30px;
 
-    color: #e3ded4;
+    color: #43383e;
 
     font-size: 1rem;
     font-weight: 500;
@@ -1217,7 +1217,7 @@ p {
 
     margin-top: 5px;
 
-    color: #666;
+    color: #8a7f85;
 
     font-size: 0.67rem;
 }
@@ -1236,7 +1236,7 @@ p {
 
     text-align: center;
 
-    background: #050505;
+    background: #fff7fa;
 }
 
 .cta-content {
@@ -1275,7 +1275,7 @@ p {
 
     border-radius: 50%;
 
-    border: 1px solid rgba(214,179,106,.08);
+    border: 1px solid rgba(217,79,130,.08);
 }
 
 .cta-circle-one {
@@ -1300,7 +1300,7 @@ p {
 ============================================= */
 
 .location {
-    background: #0c0c0c;
+    background: #ffffff;
 }
 
 .location-grid {
@@ -1395,7 +1395,7 @@ p {
 .footer {
     padding: 70px 0 30px;
 
-    background: #050505;
+    background: #fff7fa;
 
     border-top: 1px solid var(--border);
 }
@@ -1407,7 +1407,7 @@ p {
 
     padding-bottom: 50px;
 
-    border-bottom: 1px solid rgba(255,255,255,.07);
+    border-bottom: 1px solid rgba(217,79,130,.10);
 }
 
 .footer-brand {
@@ -1441,7 +1441,7 @@ p {
 
     letter-spacing: 2px;
 
-    color: #777;
+    color: #8a7f85;
 }
 
 .footer-links {
@@ -1450,7 +1450,7 @@ p {
 }
 
 .footer-links a {
-    color: #777;
+    color: #8a7f85;
 
     font-size: 0.7rem;
     font-weight: 700;
@@ -1472,7 +1472,7 @@ p {
 .footer-bottom p,
 .footer-bottom span {
     font-size: 0.62rem;
-    color: #555;
+    color: #9a9095;
 }
 
 
@@ -1497,7 +1497,7 @@ p {
 
     background: var(--gold);
 
-    color: #080808;
+    color: #332b30;
 
     font-size: 0.7rem;
     font-weight: 800;
@@ -1566,7 +1566,7 @@ p {
 
         padding: 20px;
 
-        background: rgba(8,8,8,.98);
+        background: rgba(255,255,255,.98);
 
         border: 1px solid var(--border);
 
@@ -1576,7 +1576,7 @@ p {
     .nav.active a {
         padding: 16px 5px;
 
-        border-bottom: 1px solid rgba(255,255,255,.06);
+        border-bottom: 1px solid rgba(217,79,130,.10);
     }
 
     .hero-container {
@@ -1848,4 +1848,275 @@ p {
         transition-duration: .01ms !important;
     }
 
+}
+
+
+/* =========================================================
+   BLISS BEAUTY — FUNDO DEGRADÊ PREMIUM
+   ========================================================= */
+
+html,
+body {
+    background: #fff8fb;
+}
+
+/* Fundo geral com manchas suaves de luz */
+body {
+    background:
+        radial-gradient(
+            ellipse 70% 45% at 8% 8%,
+            rgba(242, 154, 187, 0.24) 0%,
+            rgba(242, 154, 187, 0.08) 35%,
+            transparent 70%
+        ),
+        radial-gradient(
+            ellipse 60% 50% at 92% 18%,
+            rgba(255, 205, 222, 0.30) 0%,
+            transparent 68%
+        ),
+        radial-gradient(
+            ellipse 65% 45% at 75% 92%,
+            rgba(217, 79, 130, 0.10) 0%,
+            transparent 70%
+        ),
+        linear-gradient(
+            135deg,
+            #fff8fb 0%,
+            #ffffff 42%,
+            #fff5f8 72%,
+            #ffeef4 100%
+        );
+}
+
+/* Hero */
+.hero {
+    background:
+        radial-gradient(
+            ellipse 65% 75% at 82% 42%,
+            rgba(242, 154, 187, 0.24) 0%,
+            rgba(242, 154, 187, 0.08) 35%,
+            transparent 70%
+        ),
+        radial-gradient(
+            ellipse 55% 55% at 10% 85%,
+            rgba(255, 211, 226, 0.32) 0%,
+            transparent 68%
+        ),
+        linear-gradient(
+            135deg,
+            #ffffff 0%,
+            #fff9fb 45%,
+            #ffeef4 100%
+        );
+}
+
+/* Deixa a textura do hero mais elegante no fundo claro */
+.hero::before {
+    background-image:
+        radial-gradient(
+            circle at 20% 30%,
+            rgba(217, 79, 130, 0.07) 0 1px,
+            transparent 1px
+        ),
+        radial-gradient(
+            circle at 80% 70%,
+            rgba(217, 79, 130, 0.05) 0 1px,
+            transparent 1px
+        );
+    background-size: 90px 90px, 120px 120px;
+    opacity: 0.65;
+}
+
+/* Sobre */
+.about {
+    background:
+        radial-gradient(
+            ellipse 55% 70% at 0% 55%,
+            rgba(242, 154, 187, 0.13),
+            transparent 70%
+        ),
+        linear-gradient(
+            120deg,
+            #fff7fa 0%,
+            #ffffff 55%,
+            #fff9fb 100%
+        );
+}
+
+/* Frase de impacto */
+.quote-section {
+    background:
+        radial-gradient(
+            ellipse 55% 70% at 50% 50%,
+            rgba(242, 154, 187, 0.17),
+            transparent 68%
+        ),
+        linear-gradient(
+            135deg,
+            #ffffff 0%,
+            #fff6f9 50%,
+            #fff0f5 100%
+        );
+}
+
+/* Procedimentos */
+.procedures {
+    background:
+        radial-gradient(
+            ellipse 50% 70% at 95% 10%,
+            rgba(242, 154, 187, 0.12),
+            transparent 70%
+        ),
+        linear-gradient(
+            135deg,
+            #fffafc 0%,
+            #ffffff 48%,
+            #fff4f7 100%
+        );
+}
+
+/* Faixa de experiência */
+.experience {
+    background:
+        radial-gradient(
+            ellipse 55% 100% at 15% 20%,
+            rgba(255,255,255,0.45),
+            transparent 65%
+        ),
+        linear-gradient(
+            120deg,
+            #f7b5ca 0%,
+            #ee91b2 48%,
+            #d94f82 100%
+        );
+}
+
+/* Antes e depois */
+.results {
+    background:
+        radial-gradient(
+            ellipse 65% 50% at 80% 85%,
+            rgba(242, 154, 187, 0.12),
+            transparent 70%
+        ),
+        linear-gradient(
+            135deg,
+            #ffffff 0%,
+            #fff9fb 55%,
+            #fff1f5 100%
+        );
+}
+
+/* Depoimentos */
+.testimonials {
+    background:
+        radial-gradient(
+            ellipse 60% 60% at 15% 20%,
+            rgba(242, 154, 187, 0.14),
+            transparent 70%
+        ),
+        linear-gradient(
+            135deg,
+            #fff7fa 0%,
+            #ffffff 50%,
+            #fff2f6 100%
+        );
+}
+
+/* CTA */
+.cta {
+    background:
+        radial-gradient(
+            ellipse 70% 80% at 50% 100%,
+            rgba(217, 79, 130, 0.20),
+            transparent 65%
+        ),
+        radial-gradient(
+            ellipse 50% 60% at 5% 10%,
+            rgba(242, 154, 187, 0.20),
+            transparent 70%
+        ),
+        linear-gradient(
+            135deg,
+            #ffffff 0%,
+            #fff4f8 50%,
+            #fce2eb 100%
+        );
+}
+
+/* Localização */
+.location {
+    background:
+        radial-gradient(
+            ellipse 55% 65% at 5% 80%,
+            rgba(242, 154, 187, 0.12),
+            transparent 70%
+        ),
+        linear-gradient(
+            120deg,
+            #ffffff 0%,
+            #fff9fb 60%,
+            #fff0f5 100%
+        );
+}
+
+/* Rodapé */
+.footer {
+    background:
+        radial-gradient(
+            ellipse 70% 100% at 90% 0%,
+            rgba(242, 154, 187, 0.14),
+            transparent 70%
+        ),
+        linear-gradient(
+            135deg,
+            #fff7fa 0%,
+            #ffffff 55%,
+            #ffeef4 100%
+        );
+}
+
+/* Círculos decorativos do CTA ficam mais visíveis */
+.cta-circle {
+    border-color: rgba(217, 79, 130, 0.14);
+}
+
+/* Cards continuam limpos para preservar contraste */
+.procedure-card,
+.testimonial-card,
+.result-card {
+    box-shadow:
+        0 18px 55px rgba(112, 47, 72, 0.06);
+}
+
+/* No celular, suaviza o degradê para não pesar */
+@media (max-width: 720px) {
+    body {
+        background:
+            radial-gradient(
+                ellipse 100% 35% at 50% 0%,
+                rgba(242, 154, 187, 0.20),
+                transparent 70%
+            ),
+            linear-gradient(
+                180deg,
+                #fff8fb 0%,
+                #ffffff 42%,
+                #fff3f7 100%
+            );
+    }
+
+    .hero {
+        background:
+            radial-gradient(
+                ellipse 100% 55% at 50% 0%,
+                rgba(242, 154, 187, 0.20),
+                transparent 72%
+            ),
+            linear-gradient(
+                180deg,
+                #ffffff 0%,
+                #fff5f8 100%
+            );
+    }
 }
