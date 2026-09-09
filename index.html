@@ -1,351 +1,935 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bliss — Estética Facial e Corporal | São Paulo</title>
-<meta name="description" content="Bliss — Estética Facial e Corporal em São Paulo. Um espaço dedicado à beleza, cuidado, autoestima e bem-estar.">
+    <meta charset="UTF-8">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Bliss — Estética Facial e Corporal">
-<meta property="og:description" content="Um espaço dedicado à beleza, cuidado, autoestima e bem-estar em São Paulo.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="assets/hero.jpg">
-<meta property="og:locale" content="pt_BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Bliss | Estética Facial e Corporal</title>
 
-<link rel="stylesheet" href="css/style.css">
+    <meta
+        name="description"
+        content="Bliss Estética Facial e Corporal em São Paulo. Cuidado, beleza, autoestima e atendimento personalizado."
+    >
+
+    <!-- Fontes mais fortes e legíveis -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<!-- ============ HEADER ============ -->
-<header class="site-header" id="siteHeader">
-  <div class="header-inner">
-    <a href="#inicio" class="brand">
-      <span class="brand-name">Bliss</span>
-      <span class="brand-tag">Estética Facial &amp; Corporal</span>
+    <!-- ==========================================
+        HEADER
+    =========================================== -->
+    <header class="header" id="header">
+        <div class="container header-container">
+
+            <a href="#inicio" class="brand">
+
+                <div class="brand-logo">
+                    <img
+                        src="assets/logo.png"
+                        alt="Logo Bliss Estética"
+                        id="logo-img"
+                    >
+                </div>
+
+                <div class="brand-text">
+                    <strong>BLISS</strong>
+                    <span>ESTÉTICA FACIAL & CORPORAL</span>
+                </div>
+
+            </a>
+
+            <nav class="nav" id="nav">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#procedimentos">Procedimentos</a>
+                <a href="#resultados">Resultados</a>
+                <a href="#avaliacoes">Avaliações</a>
+                <a href="#localizacao">Localização</a>
+            </nav>
+
+            <a
+                href="https://wa.me/5511963157922?text=Olá!%20Vim%20pelo%20site%20da%20Bliss%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20tratamentos."
+                target="_blank"
+                class="btn btn-header"
+            >
+                Agendar
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- ==========================================
+        HERO
+    =========================================== -->
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-glow hero-glow-1"></div>
+            <div class="hero-glow hero-glow-2"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content reveal">
+
+                    <div class="eyebrow">
+                        <span></span>
+                        BLISS ESTÉTICA FACIAL & CORPORAL
+                    </div>
+
+                    <h1>
+                        Sua beleza,
+                        <span>sua essência.</span>
+                    </h1>
+
+                    <p>
+                        Uma experiência de cuidado criada para valorizar
+                        sua beleza, fortalecer sua autoestima e transformar
+                        cada atendimento em um momento especial.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="https://wa.me/5511963157922?text=Olá!%20Vim%20pelo%20site%20da%20Bliss%20e%20gostaria%20de%20agendar%20um%20atendimento."
+                            target="_blank"
+                            class="btn btn-primary"
+                        >
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Agendar atendimento
+                        </a>
+
+                        <a href="#sobre" class="btn btn-secondary">
+                            Conhecer a Bliss
+                        </a>
+
+                    </div>
+
+                    <div class="hero-info">
+
+                        <div>
+                            <strong>5.0</strong>
+                            <span>Avaliação</span>
+                        </div>
+
+                        <div class="separator"></div>
+
+                        <div>
+                            <strong>12+</strong>
+                            <span>Avaliações</span>
+                        </div>
+
+                        <div class="separator"></div>
+
+                        <div>
+                            <strong>São Paulo</strong>
+                            <span>República</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- LOGO GRANDE -->
+                <div class="hero-logo-area reveal">
+
+                    <div class="gold-circle gold-circle-1"></div>
+                    <div class="gold-circle gold-circle-2"></div>
+
+                    <div class="hero-logo-card">
+
+                        <span class="mini-text">BEAUTY EXPERIENCE</span>
+
+                        <img
+                            src="assets/logo.png"
+                            alt="Bliss Estética Facial e Corporal"
+                        >
+
+                        <div class="hero-logo-line"></div>
+
+                        <p>
+                            Estética Facial
+                            <span>•</span>
+                            Estética Corporal
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#sobre" class="scroll-down">
+                <span>EXPLORE</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+
+        </section>
+
+
+        <!-- ==========================================
+            MARQUEE
+        =========================================== -->
+        <section class="marquee">
+            <div class="marquee-track">
+
+                <span>BELEZA</span>
+                <i class="fa-solid fa-star"></i>
+
+                <span>CUIDADO</span>
+                <i class="fa-solid fa-star"></i>
+
+                <span>AUTOESTIMA</span>
+                <i class="fa-solid fa-star"></i>
+
+                <span>EXPERIÊNCIA</span>
+                <i class="fa-solid fa-star"></i>
+
+                <span>BLISS</span>
+                <i class="fa-solid fa-star"></i>
+
+                <span>BELEZA</span>
+                <i class="fa-solid fa-star"></i>
+
+                <span>CUIDADO</span>
+                <i class="fa-solid fa-star"></i>
+
+                <span>AUTOESTIMA</span>
+
+            </div>
+        </section>
+
+
+        <!-- ==========================================
+            SOBRE
+        =========================================== -->
+        <section class="section about" id="sobre">
+
+            <div class="container">
+
+                <div class="section-grid">
+
+                    <div class="section-label reveal">
+                        <span>01</span>
+                        SOBRE A BLISS
+                    </div>
+
+                    <div class="about-content reveal">
+
+                        <span class="subtitle">UM MOMENTO PARA VOCÊ</span>
+
+                        <h2>
+                            Cuidado que vai além
+                            <span>da estética.</span>
+                        </h2>
+
+                        <p class="large-text">
+                            A Bliss é um espaço dedicado à beleza,
+                            ao cuidado e à autoestima.
+                        </p>
+
+                        <p>
+                            Cada atendimento é pensado para proporcionar
+                            uma experiência especial, unindo atenção,
+                            conforto e cuidado personalizado em um
+                            ambiente sofisticado e acolhedor.
+                        </p>
+
+                        <div class="about-features">
+
+                            <div>
+                                <i class="fa-regular fa-gem"></i>
+
+                                <div>
+                                    <strong>Experiência premium</strong>
+                                    <span>Cuidado em cada detalhe.</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="fa-regular fa-heart"></i>
+
+                                <div>
+                                    <strong>Atendimento personalizado</strong>
+                                    <span>Um cuidado pensado para você.</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-sparkles"></i>
+
+                                <div>
+                                    <strong>Beleza & autoestima</strong>
+                                    <span>Valorizando sua melhor versão.</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+            FRASE
+        =========================================== -->
+        <section class="quote-section">
+
+            <div class="container reveal">
+
+                <span class="quote-mark">“</span>
+
+                <h2>
+                    A beleza começa no momento em que você
+                    escolhe <span>cuidar de si.</span>
+                </h2>
+
+                <div class="quote-line"></div>
+
+                <p>BLISS BEAUTY EXPERIENCE</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+            PROCEDIMENTOS
+        =========================================== -->
+        <section class="section procedures" id="procedimentos">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <div>
+                        <span class="subtitle">CUIDADOS BLISS</span>
+
+                        <h2>
+                            Procedimentos
+                            <span>pensados para você.</span>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Cuidado facial e corporal com atendimento
+                        personalizado e atenção aos detalhes.
+                    </p>
+
+                </div>
+
+
+                <div class="procedure-grid">
+
+
+                    <!-- PROCEDIMENTO 1 -->
+                    <article class="procedure-card reveal">
+
+                        <div class="procedure-image">
+
+                            <img
+                                src="assets/procedimento-1.jpg"
+                                alt="Procedimento de estética facial"
+                                loading="lazy"
+                            >
+
+                            <span class="procedure-number">01</span>
+
+                        </div>
+
+                        <div class="procedure-content">
+
+                            <span>BELEZA & CUIDADO</span>
+
+                            <h3>Estética Facial</h3>
+
+                            <p>
+                                Cuidados pensados para valorizar a beleza
+                                do seu rosto e proporcionar uma experiência
+                                única de bem-estar.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROCEDIMENTO 2 -->
+                    <article class="procedure-card reveal">
+
+                        <div class="procedure-image">
+
+                            <img
+                                src="assets/procedimento-2.jpg"
+                                alt="Procedimento de estética corporal"
+                                loading="lazy"
+                            >
+
+                            <span class="procedure-number">02</span>
+
+                        </div>
+
+                        <div class="procedure-content">
+
+                            <span>CUIDADO CORPORAL</span>
+
+                            <h3>Estética Corporal</h3>
+
+                            <p>
+                                Uma experiência dedicada ao cuidado do corpo,
+                                autoestima e bem-estar em cada atendimento.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROCEDIMENTO 3 -->
+                    <article class="procedure-card reveal">
+
+                        <div class="procedure-image">
+
+                            <img
+                                src="assets/procedimento-3.jpg"
+                                alt="Atendimento personalizado Bliss"
+                                loading="lazy"
+                            >
+
+                            <span class="procedure-number">03</span>
+
+                        </div>
+
+                        <div class="procedure-content">
+
+                            <span>EXPERIÊNCIA BLISS</span>
+
+                            <h3>Cuidado Personalizado</h3>
+
+                            <p>
+                                Cada pessoa é única. Por isso, a experiência
+                                Bliss é preparada com atenção especial
+                                às suas necessidades.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+            EXPERIÊNCIA
+        =========================================== -->
+        <section class="experience">
+
+            <div class="container">
+
+                <div class="experience-header reveal">
+
+                    <span class="subtitle">EXPERIÊNCIA BLISS</span>
+
+                    <h2>
+                        Mais que estética.<br>
+                        <span>Um momento seu.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="experience-grid">
+
+                    <article class="experience-item reveal">
+
+                        <span>01</span>
+
+                        <i class="fa-regular fa-heart"></i>
+
+                        <h3>Acolhimento</h3>
+
+                        <p>
+                            Um atendimento pensado para que você
+                            se sinta confortável em cada momento.
+                        </p>
+
+                    </article>
+
+
+                    <article class="experience-item reveal">
+
+                        <span>02</span>
+
+                        <i class="fa-regular fa-gem"></i>
+
+                        <h3>Sofisticação</h3>
+
+                        <p>
+                            Uma experiência construída através
+                            de cuidado, atenção e detalhes.
+                        </p>
+
+                    </article>
+
+
+                    <article class="experience-item reveal">
+
+                        <span>03</span>
+
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                        <h3>Personalização</h3>
+
+                        <p>
+                            Cada atendimento pensado especialmente
+                            para as necessidades de cada cliente.
+                        </p>
+
+                    </article>
+
+
+                    <article class="experience-item reveal">
+
+                        <span>04</span>
+
+                        <i class="fa-regular fa-star"></i>
+
+                        <h3>Bem-estar</h3>
+
+                        <p>
+                            Um momento para desacelerar,
+                            cuidar de si e valorizar sua beleza.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+            ANTES E DEPOIS
+        =========================================== -->
+        <section class="section results" id="resultados">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <div>
+                        <span class="subtitle">RESULTADOS</span>
+
+                        <h2>
+                            Antes & <span>Depois.</span>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Resultados reais que refletem cuidado,
+                        dedicação e atenção aos detalhes.
+                    </p>
+
+                </div>
+
+
+                <div class="before-after reveal">
+
+                    <div class="result-card">
+
+                        <div class="result-label">
+                            ANTES
+                        </div>
+
+                        <img
+                            src="assets/antes.jpg"
+                            alt="Antes do procedimento Bliss"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+
+                    <div class="result-divider">
+
+                        <span>BLISS</span>
+
+                        <div class="result-divider-line"></div>
+
+                    </div>
+
+
+                    <div class="result-card">
+
+                        <div class="result-label gold">
+                            DEPOIS
+                        </div>
+
+                        <img
+                            src="assets/depois.jpg"
+                            alt="Depois do procedimento Bliss"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                </div>
+
+                <p class="results-disclaimer reveal">
+                    * Os resultados podem variar de acordo com cada pessoa.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+            AVALIAÇÕES
+        =========================================== -->
+        <section class="section testimonials" id="avaliacoes">
+
+            <div class="container">
+
+                <div class="testimonials-header reveal">
+
+                    <span class="subtitle">AVALIAÇÕES</span>
+
+                    <h2>
+                        Quem conhece,
+                        <span>recomenda.</span>
+                    </h2>
+
+                    <div class="rating-big">
+                        <strong>5.0</strong>
+
+                        <div>
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+
+                            <span>12 avaliações no Google</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="testimonial-grid">
+
+                    <article class="testimonial-card reveal">
+
+                        <div class="stars">★★★★★</div>
+
+                        <blockquote>
+                            “A melhor estética. Renovou o meu rosto Muito bomm”
+                        </blockquote>
+
+                        <div class="testimonial-author">
+
+                            <div class="avatar">M</div>
+
+                            <div>
+                                <strong>Monic Okwy</strong>
+                                <span>Cliente Bliss</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="testimonial-card featured reveal">
+
+                        <div class="stars">★★★★★</div>
+
+                        <blockquote>
+                            “Amei a experiência e pretendo voltar mais vezes.
+                            Excelente profissional!!”
+                        </blockquote>
+
+                        <div class="testimonial-author">
+
+                            <div class="avatar">T</div>
+
+                            <div>
+                                <strong>Tina Oliveira</strong>
+                                <span>Cliente Bliss</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="testimonial-card reveal">
+
+                        <div class="stars">★★★★★</div>
+
+                        <blockquote>
+                            “Professional excelente com otimo atendimento”
+                        </blockquote>
+
+                        <div class="testimonial-author">
+
+                            <div class="avatar">L</div>
+
+                            <div>
+                                <strong>Lovina Omeje</strong>
+                                <span>Cliente Bliss</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+            CTA
+        =========================================== -->
+        <section class="cta">
+
+            <div class="cta-circle cta-circle-one"></div>
+            <div class="cta-circle cta-circle-two"></div>
+
+            <div class="container cta-content reveal">
+
+                <span>SEU MOMENTO BLISS</span>
+
+                <h2>
+                    Seu próximo momento de
+                    <strong>cuidado começa aqui.</strong>
+                </h2>
+
+                <p>
+                    Entre em contato e descubra uma experiência
+                    pensada para valorizar você.
+                </p>
+
+                <a
+                    href="https://wa.me/5511963157922?text=Olá!%20Vim%20pelo%20site%20da%20Bliss%20e%20gostaria%20de%20agendar%20um%20atendimento."
+                    target="_blank"
+                    class="btn btn-primary btn-large"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Agendar pelo WhatsApp
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+            LOCALIZAÇÃO
+        =========================================== -->
+        <section class="section location" id="localizacao">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <div>
+                        <span class="subtitle">ONDE ESTAMOS</span>
+
+                        <h2>
+                            Visite a <span>Bliss.</span>
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="location-grid">
+
+                    <div class="location-info reveal">
+
+                        <div class="location-number">
+                            05
+                        </div>
+
+                        <h3>BLISS</h3>
+
+                        <p class="location-name">
+                            Estética Facial & Corporal
+                        </p>
+
+                        <div class="address">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <p>
+                                R. Sete de Abril, 125 - GS, Lj 18<br>
+                                República — São Paulo - SP<br>
+                                01043-000
+                            </p>
+
+                        </div>
+
+                        <div class="address">
+
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                            <p>
+                                (11) 96315-7922
+                            </p>
+
+                        </div>
+
+
+                        <div class="location-buttons">
+
+                            <a
+                                href="https://www.google.com/maps/search/?api=1&query=R.+Sete+de+Abril,+125,+República,+São+Paulo,+SP"
+                                target="_blank"
+                                class="btn btn-primary"
+                            >
+                                <i class="fa-solid fa-location-arrow"></i>
+                                Como chegar
+                            </a>
+
+                            <a
+                                href="https://wa.me/5511963157922"
+                                target="_blank"
+                                class="btn btn-secondary"
+                            >
+                                WhatsApp
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="map reveal">
+
+                        <iframe
+                            src="https://www.google.com/maps?q=R.%20Sete%20de%20Abril%20125%20República%20São%20Paulo%20SP&output=embed"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localização Bliss"
+                        ></iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+        FOOTER
+    =========================================== -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+
+                    <img src="assets/logo.png" alt="Logo Bliss">
+
+                    <div>
+                        <strong>BLISS</strong>
+                        <span>ESTÉTICA FACIAL & CORPORAL</span>
+                    </div>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#procedimentos">Procedimentos</a>
+                    <a href="#resultados">Resultados</a>
+                    <a href="#avaliacoes">Avaliações</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Bliss — Estética Facial e Corporal.
+                    Todos os direitos reservados.
+                </p>
+
+                <span>São Paulo — SP</span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- WHATSAPP FLUTUANTE -->
+    <a
+        href="https://wa.me/5511963157922?text=Olá!%20Vim%20pelo%20site%20da%20Bliss%20e%20gostaria%20de%20mais%20informações."
+        target="_blank"
+        class="floating-whatsapp"
+        aria-label="Falar pelo WhatsApp"
+    >
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span>Agende seu horário</span>
     </a>
 
-    <nav class="main-nav" id="mainNav">
-      <a href="#inicio">Início</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#tratamentos">Tratamentos</a>
-      <a href="#experiencia">Experiência</a>
-      <a href="#galeria">Galeria</a>
-      <a href="#avaliacoes">Avaliações</a>
-      <a href="#contato">Contato</a>
-    </nav>
 
-    <a href="#contato" class="btn btn-gold header-cta">Agendar atendimento</a>
+    <script src="js/script.js"></script>
 
-    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
-
-<!-- ============ HERO ============ -->
-<section class="hero" id="inicio">
-  <div class="hero-media">
-    <img src="assets/hero.jpg" alt="Ambiente da Bliss Estética Facial e Corporal" class="hero-img" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-    <div class="hero-placeholder">
-      <span>Adicione sua foto em <code>assets/hero.jpg</code></span>
-    </div>
-    <div class="hero-overlay"></div>
-  </div>
-
-  <div class="hero-content">
-    <p class="eyebrow-gold reveal">Bliss Estética Facial &amp; Corporal</p>
-    <h1 class="hero-title reveal">Sua beleza.<br>Sua essência.<br>Seu momento.</h1>
-    <p class="hero-text reveal">Uma experiência de cuidado pensada para valorizar sua beleza e transformar cada atendimento em um momento especial.</p>
-    <div class="hero-actions reveal">
-      <a href="#contato" class="btn btn-gold">Agendar atendimento</a>
-      <a href="#sobre" class="btn btn-outline">Conhecer a Bliss</a>
-    </div>
-  </div>
-
-  <a href="#frase" class="scroll-hint" aria-label="Rolar para explorar">
-    <span>Scroll para explorar</span>
-    <span class="scroll-line"></span>
-  </a>
-</section>
-
-<!-- ============ FRASE DE IMPACTO ============ -->
-<section class="statement" id="frase">
-  <div class="statement-inner reveal">
-    <span class="rule rule-center"></span>
-    <p class="statement-text">Beleza não é apenas aparência.<br>É a forma como <span class="text-gold">você se sente</span>.</p>
-    <span class="rule rule-center"></span>
-  </div>
-</section>
-
-<!-- ============ SOBRE ============ -->
-<section class="about" id="sobre">
-  <div class="about-grid">
-    <div class="about-media reveal">
-      <img src="assets/about.jpg" alt="Espaço interno da Bliss" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-      <div class="about-placeholder"><span>assets/about.jpg</span></div>
-      <span class="frame-corner frame-tl"></span>
-      <span class="frame-corner frame-br"></span>
-    </div>
-
-    <div class="about-content reveal">
-      <p class="eyebrow-gold">Sobre a Bliss</p>
-      <h2>Um espaço criado para você.</h2>
-      <p class="about-text">A Bliss nasceu com a proposta de proporcionar uma experiência de cuidado, beleza e autoestima em um ambiente acolhedor e sofisticado.</p>
-
-      <div class="stats-row">
-        <div class="stat">
-          <span class="stat-number">5.0</span>
-          <span class="stat-label">Avaliação</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">12+</span>
-          <span class="stat-label">Avaliações</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">100%</span>
-          <span class="stat-label">Cuidado personalizado</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ TRATAMENTOS ============ -->
-<section class="treatments" id="tratamentos">
-  <div class="section-head reveal">
-    <p class="eyebrow-gold">Tratamentos</p>
-    <h2>Cuidados que valorizam sua beleza.</h2>
-  </div>
-
-  <div class="treatments-grid">
-    <article class="treatment-card reveal">
-      <div class="treatment-media">
-        <img src="assets/treatment-1.jpg" alt="Estética Facial na Bliss" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-        <div class="treatment-placeholder"><span>assets/treatment-1.jpg</span></div>
-      </div>
-      <div class="treatment-body">
-        <span class="treatment-number">01</span>
-        <h3>Estética Facial</h3>
-        <p>Cuidados dedicados à saúde e beleza da pele do rosto, com técnicas que respeitam as necessidades individuais de cada cliente.</p>
-      </div>
-    </article>
-
-    <article class="treatment-card reveal">
-      <div class="treatment-media">
-        <img src="assets/treatment-2.jpg" alt="Estética Corporal na Bliss" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-        <div class="treatment-placeholder"><span>assets/treatment-2.jpg</span></div>
-      </div>
-      <div class="treatment-body">
-        <span class="treatment-number">02</span>
-        <h3>Estética Corporal</h3>
-        <p>Procedimentos voltados ao bem-estar e à valorização do corpo, em um ambiente pensado para o seu conforto.</p>
-      </div>
-    </article>
-
-    <article class="treatment-card reveal">
-      <div class="treatment-media">
-        <img src="assets/treatment-3.jpg" alt="Atendimento Personalizado na Bliss" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-        <div class="treatment-placeholder"><span>assets/treatment-3.jpg</span></div>
-      </div>
-      <div class="treatment-body">
-        <span class="treatment-number">03</span>
-        <h3>Atendimento Personalizado</h3>
-        <p>Cada visita é conduzida de forma exclusiva, com atenção aos detalhes que fazem toda a diferença na sua experiência.</p>
-      </div>
-    </article>
-  </div>
-</section>
-
-<!-- ============ EXPERIÊNCIA ============ -->
-<section class="experience" id="experiencia">
-  <div class="section-head reveal">
-    <p class="eyebrow-gold">Experiência Bliss</p>
-    <h2>Mais do que estética. Uma experiência.</h2>
-  </div>
-
-  <div class="pillars-grid">
-    <div class="pillar reveal">
-      <span class="pillar-icon" aria-hidden="true">
-        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1"/><path d="M13 20c2-4 5-6 7-6s5 2 7 6c-2 4-5 6-7 6s-5-2-7-6z" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="2.5" stroke="currentColor" stroke-width="1"/></svg>
-      </span>
-      <h3>Cuidado personalizado</h3>
-      <p>Cada atendimento pensado para você.</p>
-    </div>
-    <div class="pillar reveal">
-      <span class="pillar-icon" aria-hidden="true">
-        <svg viewBox="0 0 40 40" fill="none"><path d="M20 8c6 6 12 9 12 16a12 12 0 0 1-24 0c0-7 6-10 12-16z" stroke="currentColor" stroke-width="1"/></svg>
-      </span>
-      <h3>Acolhimento</h3>
-      <p>Um ambiente preparado para proporcionar conforto.</p>
-    </div>
-    <div class="pillar reveal">
-      <span class="pillar-icon" aria-hidden="true">
-        <svg viewBox="0 0 40 40" fill="none"><path d="M20 6l3.5 9.5L33 19l-9.5 3.5L20 32l-3.5-9.5L7 19l9.5-3.5z" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/></svg>
-      </span>
-      <h3>Sofisticação</h3>
-      <p>Detalhes que tornam sua experiência especial.</p>
-    </div>
-    <div class="pillar reveal">
-      <span class="pillar-icon" aria-hidden="true">
-        <svg viewBox="0 0 40 40" fill="none"><path d="M20 30s-10-6.2-10-13.6C10 12 13 9 17 9c1.6 0 3 .7 3.9 1.9C21.9 9.7 23.3 9 25 9c4 0 7 3 7 7.4C32 23.8 20 30 20 30z" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/></svg>
-      </span>
-      <h3>Bem-estar</h3>
-      <p>Um momento para desacelerar e cuidar de si.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ============ GALERIA ============ -->
-<section class="gallery" id="galeria">
-  <div class="section-head reveal">
-    <p class="eyebrow-gold">Galeria</p>
-    <h2>Momentos Bliss.</h2>
-  </div>
-
-  <div class="gallery-grid">
-    <button class="gallery-item item-1 reveal" data-index="0">
-      <img src="assets/gallery-1.jpg" alt="Galeria Bliss 1" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-      <div class="gallery-placeholder"><span>assets/gallery-1.jpg</span></div>
-    </button>
-    <button class="gallery-item item-2 reveal" data-index="1">
-      <img src="assets/gallery-2.jpg" alt="Galeria Bliss 2" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-      <div class="gallery-placeholder"><span>assets/gallery-2.jpg</span></div>
-    </button>
-    <button class="gallery-item item-3 reveal" data-index="2">
-      <img src="assets/gallery-3.jpg" alt="Galeria Bliss 3" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-      <div class="gallery-placeholder"><span>assets/gallery-3.jpg</span></div>
-    </button>
-    <button class="gallery-item item-4 reveal" data-index="3">
-      <img src="assets/gallery-4.jpg" alt="Galeria Bliss 4" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-      <div class="gallery-placeholder"><span>assets/gallery-4.jpg</span></div>
-    </button>
-    <button class="gallery-item item-5 reveal" data-index="4">
-      <img src="assets/gallery-5.jpg" alt="Galeria Bliss 5" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
-      <div class="gallery-placeholder"><span>assets/gallery-5.jpg</span></div>
-    </button>
-  </div>
-</section>
-
-<!-- Lightbox -->
-<div class="lightbox" id="lightbox" aria-hidden="true">
-  <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">&times;</button>
-  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Anterior">&#8249;</button>
-  <img src="" alt="" class="lightbox-img" id="lightboxImg">
-  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Próxima">&#8250;</button>
-</div>
-
-<!-- ============ AVALIAÇÕES ============ -->
-<section class="testimonials" id="avaliacoes">
-  <div class="section-head reveal">
-    <p class="eyebrow-gold">Avaliações</p>
-    <h2>O que dizem sobre a Bliss.</h2>
-    <div class="rating-summary">
-      <span class="stars">★★★★★</span>
-      <span>5,0 · 12 avaliações</span>
-    </div>
-  </div>
-
-  <div class="testimonial-carousel reveal">
-    <div class="testimonial-track" id="testimonialTrack">
-      <blockquote class="testimonial-slide">
-        <p class="stars">★★★★★</p>
-        <p class="testimonial-text">"A melhor estética. Renovou o meu rosto Muito bomm"</p>
-        <cite>Monic Okwy</cite>
-      </blockquote>
-      <blockquote class="testimonial-slide">
-        <p class="stars">★★★★★</p>
-        <p class="testimonial-text">"Amei a experiência e pretendo voltar mais vezes. Excelente profissional!!"</p>
-        <cite>Tina Oliveira</cite>
-      </blockquote>
-      <blockquote class="testimonial-slide">
-        <p class="stars">★★★★★</p>
-        <p class="testimonial-text">"Professional excelente com otimo atendimento"</p>
-        <cite>Lovina Omeje</cite>
-      </blockquote>
-    </div>
-    <div class="testimonial-dots" id="testimonialDots"></div>
-  </div>
-</section>
-
-<!-- ============ CTA ============ -->
-<section class="cta">
-  <div class="cta-inner reveal">
-    <span class="rule rule-center"></span>
-    <h2>Seu momento começa aqui.</h2>
-    <p>Agende seu atendimento e descubra uma experiência de cuidado pensada para você.</p>
-    <a href="https://wa.me/5511963157922?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Bliss%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20tratamentos." target="_blank" rel="noopener" class="btn btn-gold">Agendar pelo WhatsApp</a>
-    <p class="cta-note">Atendimento personalizado · São Paulo</p>
-  </div>
-</section>
-
-<!-- ============ LOCALIZAÇÃO ============ -->
-<section class="location" id="contato">
-  <div class="location-grid">
-    <div class="location-content reveal">
-      <p class="eyebrow-gold">Localização</p>
-      <h2>Visite a Bliss</h2>
-      <address>
-        R. Sete de Abril, 125 - GS, Lj 18<br>
-        República — São Paulo/SP<br>
-        01043-000
-      </address>
-      <div class="location-actions">
-        <a href="https://www.google.com/maps/dir/?api=1&destination=R.+Sete+de+Abril,+125+-+GS,+Lj+18+-+Rep%C3%BAblica,+S%C3%A3o+Paulo+-+SP,+01043-000" target="_blank" rel="noopener" class="btn btn-outline">Como chegar</a>
-        <a href="https://wa.me/5511963157922" target="_blank" rel="noopener" class="btn btn-gold">Falar no WhatsApp</a>
-      </div>
-    </div>
-
-    <div class="location-map reveal">
-      <iframe
-        title="Mapa Bliss Estética Facial e Corporal"
-        src="https://www.google.com/maps?q=R.+Sete+de+Abril,+125+-+GS,+Lj+18+-+Rep%C3%BAblica,+S%C3%A3o+Paulo+-+SP,+01043-000&output=embed"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
-  </div>
-</section>
-
-<!-- ============ FOOTER ============ -->
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <span class="brand-name">Bliss</span>
-      <span class="brand-tag">Estética Facial &amp; Corporal</span>
-      <p>São Paulo — SP</p>
-    </div>
-
-    <nav class="footer-nav">
-      <a href="#inicio">Início</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#tratamentos">Tratamentos</a>
-      <a href="#galeria">Galeria</a>
-      <a href="#avaliacoes">Avaliações</a>
-      <a href="#contato">Contato</a>
-    </nav>
-
-    <div class="footer-contact">
-      <a href="https://wa.me/5511963157922" target="_blank" rel="noopener">WhatsApp</a>
-      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
-    </div>
-  </div>
-  <span class="rule footer-rule"></span>
-  <p class="footer-copy">© 2026 Bliss — Estética Facial e Corporal. Todos os direitos reservados.</p>
-</footer>
-
-<!-- ============ WHATSAPP FLUTUANTE ============ -->
-<a class="whatsapp-float" href="https://wa.me/5511963157922?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Bliss%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20tratamentos." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-  <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
-    <path d="M16 4C9.4 4 4 9.4 4 16c0 2.2.6 4.3 1.7 6.1L4 28l6.1-1.6c1.7 1 3.7 1.5 5.9 1.5 6.6 0 12-5.4 12-12S22.6 4 16 4z" stroke="currentColor" stroke-width="1.3"/>
-    <path d="M11.5 11.8c.3-.7.6-.7.9-.7h.6c.2 0 .5 0 .7.5.3.6.9 2 1 2.1.1.2.1.4 0 .6-.1.2-.2.3-.4.5-.2.2-.4.4-.5.6-.2.2-.3.4-.1.7.2.3.9 1.5 2 2.4 1.4 1.2 2.4 1.6 2.8 1.8.3.2.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.3.7-.2.3.1 1.9.9 2.2 1 .3.2.5.2.6.4.1.2.1.9-.2 1.7-.3.8-1.7 1.6-2.4 1.7-.6.1-1.4.2-4.5-1-3.7-1.5-6.1-5.3-6.3-5.6-.2-.3-1.5-2-1.5-3.8 0-1.8.9-2.7 1.2-3z" fill="currentColor"/>
-  </svg>
-</a>
-
-<script src="js/script.js"></script>
 </body>
 </html>
